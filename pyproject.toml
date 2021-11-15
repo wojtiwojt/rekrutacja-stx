@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "Spis Książek"
+version = "0.1.0"
+description = "Projekt na potrzeby rekrutacji w firmie STXnext"
+authors = ["Wojciech Pawlak"]
+
+[tool.poetry.dependencies]
+python = "3.9.*"
+django = "3.*"
+djangorestframework = "3.*"
+black = "*"
+python-decouple = "*"
+pytest-django = "*"
+pytest-cov = "*"
+
+[tool.poetry.dev-dependencies]
