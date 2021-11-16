@@ -1,0 +1,125 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% load widget_tweaks %}
+{% if book.publication_language %}
+<div class="d-none" id="lang">{{ book.publication_language }}</div>
+    {% endif %}
+
+    {% if book %}
+        <div class="mb-3">
+        <h3>Edytuj dane ksiązki</h3>
+        </div>
+    {% else %}
+        <div class="mb-3">
+        <h3>Dodaj nową książkę</h3>
+        </div>
+    {% endif %}
+
+    <form method="post" novalidate>
+    {% csrf_token %}
+
+    {% for hidden_field in form.hidden_fields %}
+        {{ hidden_field }}
+    {% endfor %}
+
+    {% if form.non_field_errors %}
+        <div class="alert alert-danger" role="alert">
+        {% for error in form.non_field_errors %}
+            {{ error }}
+        {% endfor %}
+        </div>
+    {% endif %}
+
+    {% for field in form.visible_fields %}
+        {% if field.label == "Rok wydania" %}
+            <div class="form-row">
+            <div class="form-group col-md-4">
+        {% elif field.label == "Miesiąc wydania" or field.label == "Dzień wydania" %}    
+            <div class="form-group col-md-4">
+        {% else %}    
+            <div class="form-group">
+        {% endif %}
+        {{ field.label_tag }}
+
+        {% if form.is_bound %}
+            {% if field.errors %}
+            {% if field.label == "Język publikacji" %}
+                {% render_field field class="form-control is-invalid basicAutoComplete" %}
+            {% else %}
+                {% render_field field class="form-control is-invalid" %}
+            {% endif %}
+            {% for error in field.errors %}
+                <div class="invalid-feedback">
+                {{ error }}
+                </div>
+            {% endfor %}
+            {% elif field.label == "Język publikacji" %}
+                {% render_field field class="form-control is-valid basicAutoComplete" %}
+            {% else %}
+                {% render_field field class="form-control is-valid" %}
+            {% endif %}
+        {% elif field.label == "Język publikacji" %}
+            {% render_field field class="form-control basicAutoComplete" %}
+        {% else %}
+            {% render_field field class="form-control" %}
+        {% endif %}
+
+        {% if field.help_text %}
+            <small class="form-text text-muted">{{ field.help_text }}</small>
+        {% endif %}
+        </div>
+        {% if field.label == "Dzień wydania" %}
+        </div>
+        {% endif %}
+    {% endfor %}
+
+    <button type="submit" class="btn btn-primary">Zapisz</button>
+</form>
+
+{% endblock content %}
+
+
+
+{% block script %}
+<script type="text/javascript">
+    $(function () {
+        $('#date-from input').datepicker({
+            format: "yyyy-mm-dd",
+            language: "pl",
+            todayHighlight: true
+        });
+        $('#date-to input').datepicker({
+            format: "yyyy-mm-dd",
+            language: "pl",
+            todayHighlight: true
+        });
+
+        $('.basicAutoComplete').autoComplete({
+                    resolverSettings: {
+                        url: '/static/books/langs_autocomplete.json'
+                    },
+            minLength: 1,
+            noResultsText: 'Brak wyników',
+            events: {
+                        searchPost: function (resultsFromServer, origJQElement) {
+                console.log(origJQElement[0].value)
+                return resultsFromServer.filter(element => element.includes(origJQElement[0].value));
+                        }
+                    }
+                
+                });
+        console.log($('#lang').text())
+        
+        if ($('#lang').text() !== '') {
+            $('.basicAutoComplete').autoComplete('set', { value: $('#lang').text(), text: $('#lang').text() });      
+        };
+
+        $('.basicAutoComplete').on('autocomplete.select', function (evt, item) {
+            $('input[name="publication_language"]').val(JSON.stringify(item).replace(/"/g, ''));
+            console.log(JSON.stringify(item))
+        });
+        
+    }); 
+</script>
+{% endblock script %}
