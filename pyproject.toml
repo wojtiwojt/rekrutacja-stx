@@ -12,5 +12,6 @@ black = "*"
 python-decouple = "*"
 pytest-django = "*"
 pytest-cov = "*"
+django-widget-tweaks = "*"
 
 [tool.poetry.dev-dependencies]
