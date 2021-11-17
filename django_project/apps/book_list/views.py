@@ -1,9 +1,12 @@
 from django.shortcuts import render, get_object_or_404, redirect
+from django.db.models import Q
+from datetime import date
 from .forms import BookAddEditForm
-from .models import Author, Book, IndustryIdentifiers
+from .models import Book, IndustryIdentifiers
 from .utils import (
     check_if_authors_exist_or_create_and_return_ids,
     get_existing_book_data_for_form,
+    perform_search_on_given_parameters,
 )
 
 
@@ -32,14 +35,18 @@ def add_or_edit_book_view(request, pk=None):
             for id_type in ["isbn_10", "isbn_13", "other_id"]:
                 try:
                     identifier_obj = book.identifier.get(id_type=id_type)
-                    identifier_obj.identifier = form.cleaned_data[id_type]
-                    identifier_obj.save()
+                    if form.cleaned_data[id_type]:
+                        identifier_obj.identifier = form.cleaned_data[id_type]
+                        identifier_obj.save()
+                    else:
+                        identifier_obj.delete()
                 except:
-                    IndustryIdentifiers.objects.create(
-                        id_type=id_type,
-                        identifier=form.cleaned_data[id_type],
-                        book=book,
-                    )
+                    if form.cleaned_data[id_type]:
+                        IndustryIdentifiers.objects.create(
+                            id_type=id_type,
+                            identifier=form.cleaned_data[id_type],
+                            book=book,
+                        )
             return redirect("/")
         return render(request, "add_edit_form.html", {"form": form, "book": book})
 
@@ -50,3 +57,20 @@ def add_or_edit_book_view(request, pk=None):
         book = None
         form = BookAddEditForm()
     return render(request, "add_edit_form.html", {"form": form, "book": book})
+
+
+def list_of_books_view(request):
+    if request.GET:
+        title = request.GET.get("title")
+        author = request.GET.get("author")
+        language = request.GET.get("language")
+        date_start = request.GET.get("date_start")
+        date_end = request.GET.get("date_end")
+
+        books = perform_search_on_given_parameters(
+            title, author, language, date_start, date_end
+        )
+        return render(request, "book_list.html", {"books": books})
+
+    books = Book.objects.all()
+    return render(request, "book_list.html", {"books": books})

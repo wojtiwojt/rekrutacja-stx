@@ -8,38 +8,77 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Author',
+            name="Author",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=255)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("name", models.CharField(max_length=255)),
             ],
         ),
         migrations.CreateModel(
-            name='Book',
+            name="Book",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('title', models.CharField(max_length=255)),
-                ('publication_date_year', models.PositiveSmallIntegerField(blank=True, null=True)),
-                ('publication_date_month', models.PositiveSmallIntegerField(blank=True, null=True)),
-                ('publication_date_day', models.PositiveSmallIntegerField(blank=True, null=True)),
-                ('page_count', models.PositiveSmallIntegerField(blank=True, null=True)),
-                ('cover_url', models.URLField(blank=True, max_length=255, null=True)),
-                ('publication_language', models.CharField(max_length=255)),
-                ('authors', models.ManyToManyField(to='book_list.Author')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("title", models.CharField(max_length=255)),
+                (
+                    "publication_date_year",
+                    models.PositiveSmallIntegerField(blank=True, null=True),
+                ),
+                (
+                    "publication_date_month",
+                    models.PositiveSmallIntegerField(blank=True, null=True),
+                ),
+                (
+                    "publication_date_day",
+                    models.PositiveSmallIntegerField(blank=True, null=True),
+                ),
+                ("page_count", models.PositiveSmallIntegerField(blank=True, null=True)),
+                ("cover_url", models.URLField(blank=True, max_length=255, null=True)),
+                ("publication_language", models.CharField(max_length=255)),
+                ("authors", models.ManyToManyField(to="book_list.Author")),
             ],
         ),
         migrations.CreateModel(
-            name='IndustryIdentifiers',
+            name="IndustryIdentifiers",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('id_type', models.CharField(max_length=255)),
-                ('identifier', models.CharField(max_length=255)),
-                ('book', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='book', to='book_list.book')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("id_type", models.CharField(max_length=255)),
+                ("identifier", models.CharField(max_length=255)),
+                (
+                    "book",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="book",
+                        to="book_list.book",
+                    ),
+                ),
             ],
         ),
     ]

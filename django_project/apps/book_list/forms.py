@@ -32,7 +32,7 @@ class BookAddEditForm(forms.Form):
     )
     publication_language = forms.ChoiceField(
         label="Język publikacji",
-        required=False,
+        required=True,
         choices=LANGUAGE_CHOICES,
         help_text="Zacznij pisać i wybierz język z listy",
     )

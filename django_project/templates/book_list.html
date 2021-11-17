@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="table-responsive">
+    <table class="table table-bordered">
+    <thead class="thead-dark">
+        <tr>
+        <th scope="col">Okładka</th>
+        <th scope="col">Tytuł</th>
+        <th scope="col">Autorzy</th>
+        <th scope="col">Identyfikator</th>
+        <th scope="col">Liczba stron</th>
+        <th scope="col">Data publikacji</th>
+        <th scope="col">Język publikacji</th>
+        <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for book in books %}
+        <tr>
+        <td>
+            <img
+            src={% if book.cover_url %}{{ book.cover_url }}{% else %}{% static 'books/no_cover.png' %}{% endif %}
+            />
+        </td>
+        <td>{{ book.title }}</td>
+        <td>
+        {% for author in book.authors.all %}
+            {{ author.name }}<hr>
+        {% endfor %}
+        </td>
+        <td>
+        {% for id in book.identifier.all %}
+            {{ id.id_type }} - {{ id.identifier }}<hr>
+        {% endfor %}
+        </td>
+        <td>{{ book.page_count }}</td>
+        <td>
+        {% if book.publication_date_string %}
+            {{ book.publication_date_string }}
+        {% endif %}
+        </td>
+        <td>{{ book.publication_language }}</td>
+        </td>
+        <td><a href="{% url 'edit-book' book.id %}">edytuj</a></td>
+        </tr>
+    {% endfor %}
+    </tbody>
+    </table>
+</div>
+
+{% endblock content %}

@@ -84,17 +84,6 @@
 {% block script %}
 <script type="text/javascript">
     $(function () {
-        $('#date-from input').datepicker({
-            format: "yyyy-mm-dd",
-            language: "pl",
-            todayHighlight: true
-        });
-        $('#date-to input').datepicker({
-            format: "yyyy-mm-dd",
-            language: "pl",
-            todayHighlight: true
-        });
-
         $('.basicAutoComplete').autoComplete({
                     resolverSettings: {
                         url: '/static/books/langs_autocomplete.json'
