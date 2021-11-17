@@ -7,18 +7,22 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('book_list', '0001_initial'),
+        ("book_list", "0001_initial"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='book',
-            name='publication_date_string',
+            model_name="book",
+            name="publication_date_string",
             field=models.CharField(blank=True, max_length=255, null=True),
         ),
         migrations.AlterField(
-            model_name='industryidentifiers',
-            name='book',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='identifier', to='book_list.book'),
+            model_name="industryidentifiers",
+            name="book",
+            field=models.ForeignKey(
+                on_delete=django.db.models.deletion.CASCADE,
+                related_name="identifier",
+                to="book_list.book",
+            ),
         ),
     ]

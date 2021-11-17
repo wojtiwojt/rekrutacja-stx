@@ -6,6 +6,7 @@ from .models import Book, IndustryIdentifiers
 from .utils import (
     check_if_authors_exist_or_create_and_return_ids,
     get_existing_book_data_for_form,
+    perform_search_on_given_parameters,
 )
 
 
@@ -34,7 +35,7 @@ def add_or_edit_book_view(request, pk=None):
             for id_type in ["isbn_10", "isbn_13", "other_id"]:
                 try:
                     identifier_obj = book.identifier.get(id_type=id_type)
-                    if form.cleaned_data[id_type]:   
+                    if form.cleaned_data[id_type]:
                         identifier_obj.identifier = form.cleaned_data[id_type]
                         identifier_obj.save()
                     else:
@@ -58,47 +59,18 @@ def add_or_edit_book_view(request, pk=None):
     return render(request, "add_edit_form.html", {"form": form, "book": book})
 
 
-
 def list_of_books_view(request):
     if request.GET:
-        title = request.GET.get('title')
-        author = request.GET.get('author')
-        language = request.GET.get('language')
-        date_start = request.GET.get('date_start')
-        date_end = request.GET.get('date_end')
+        title = request.GET.get("title")
+        author = request.GET.get("author")
+        language = request.GET.get("language")
+        date_start = request.GET.get("date_start")
+        date_end = request.GET.get("date_end")
 
-        print(request.GET)
+        books = perform_search_on_given_parameters(
+            title, author, language, date_start, date_end
+        )
+        return render(request, "book_list.html", {"books": books})
 
-        filters = {}
-        if title:
-            filters['title__icontains'] = title
-        if author:
-            filters['authors__name__icontains'] = author
-        if language:
-            filters['publication_language__icontains'] = language
-        if date_start:
-            date_list = date_start.split('-')
-            date_from_query = date(int(date_list[0]), int(date_list[1]), int(date_list[2]))
-            filters['publication_date_year__gte'] = date_from_query.year 
-        if date_end:
-            date_list = date_end.split('-')
-            date_end_query = date(int(date_list[0]), int(date_list[1]), int(date_list[2]))
-            filters['publication_date_year__lte'] = date_end_query.year
-    
-        books = Book.objects.filter(**filters).distinct()
-
-        books_filtered = []
-        for i in books:
-            if not i.publication_date_month and not i.publication_date_day:
-                books_filtered.append(i)
-            if i.publication_date_month and i.publication_date_day:
-                if date_from_query <= date(i.publication_date_year, i.publication_date_month, i.publication_date_day) <= date_end_query:
-                    books_filtered.append(i)
-            if i.publication_date_month and not i.publication_date_day:
-                if date_from_query <= date(i.publication_date_year, i.publication_date_month, 1) <= date_end_query:
-                    books_filtered.append(i)
-
-        return render(request, "book_list.html", {'books': books_filtered})
-    
     books = Book.objects.all()
-    return render(request, "book_list.html", {'books': books})
+    return render(request, "book_list.html", {"books": books})

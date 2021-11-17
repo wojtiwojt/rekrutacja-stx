@@ -20,7 +20,7 @@ class Book(models.Model):
     publication_language = models.CharField(max_length=255, blank=False)
 
     def __str__(self):
-        return f'{self.title} - {self.publication_date_year} / {self.publication_date_month} / {self.publication_date_day}'
+        return f"{self.title} - {self.publication_date_year} / {self.publication_date_month} / {self.publication_date_day}"
 
     def save(self, *args, **kwargs):
         all_spare_dates = []
@@ -30,9 +30,8 @@ class Book(models.Model):
             all_spare_dates.append(str(self.publication_date_month))
         if self.publication_date_day:
             all_spare_dates.append(str(self.publication_date_day))
-        self.publication_date_string = '-'.join(all_spare_dates)
+        self.publication_date_string = "-".join(all_spare_dates)
         super(Book, self).save(*args, **kwargs)
-
 
 
 class IndustryIdentifiers(models.Model):
