@@ -40,31 +40,28 @@
                 <div class="mb-3">
                     <h3>Wyszukaj książki</h3>
                 </div>
-                <form>
+                <form method="GET" action="{% url 'search-book' %}">
                     <div class="form-group">
                       <label for="title">Tytuł</label>
-                      <input type="text" class="form-control" id="title" placeholder="">
+                      <input type="text" class="form-control" id="title" placeholder="" name="title" value="{{ request.GET.title }}">
                     </div>
                     <div class="form-group">
                         <label for="author">Autor</label>
-                        <input type="text" class="form-control" id="author" placeholder="">
+                        <input type="text" class="form-control" id="author" placeholder="" name="author" value="{{ request.GET.author }}">
                     </div>
                     <div class="form-group">
                         <label for="language">Język</label>
-                        <input type="text" class="form-control" id="language" placeholder="">
-                    </div>
-                    <div class="form-group">
-                        <label for="isbn">ISBN</label>
-                        <input type="number" step="1" class="form-control" id="isbn" placeholder="">
+                        <input type="text" class="form-control" id="language" placeholder="" name="language" value="{{ request.GET.language }}">
                     </div>
                     <div class="form-group" id="date-from">
                         <label for="datestart">Data od</label>
-                        <input type="text" class="form-control" id="datestart" placeholder="yyyy-mm-dd">
+                        <input type="text" class="form-control" id="datestart" placeholder="yyyy-mm-dd" name="date_start" value="{{ request.GET.date_start }}">
                     </div>
                     <div class="form-group" id="date-to">
                         <label for="dateend">Data do</label>
-                        <input type="text" class="form-control" id="dateend" placeholder="yyyy-mm-dd">
+                        <input type="text" class="form-control" id="dateend" placeholder="yyyy-mm-dd" name="date_end" value="{{ request.GET.date_end }}">
                     </div>
+                    <button type="submit" class="btn btn-primary"><i class="ri-search-line"></i> Szukaj</button>
                 </form>
             </div>
           </div>
@@ -81,6 +78,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js" integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.pl.min.js" integrity="sha512-ScqJL8X5IqP89pKmQnXULodix6OkrTtcWiTdJxPGPGdrncyJkI7KOwNRPqzZ6lWnTk/u5xboSjEeYQgeyOHyhQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/gh/xcash/bootstrap-autocomplete@v2.3.7/dist/latest/bootstrap-autocomplete.min.js"></script>
+    <script type="text/javascript">
+      $(function () {
+          $('#date-from input').datepicker({
+              format: "yyyy-mm-dd",
+              language: "pl",
+              todayHighlight: true
+          });
+          $('#date-to input').datepicker({
+              format: "yyyy-mm-dd",
+              language: "pl",
+              todayHighlight: true
+          }); 
+      }); 
+  </script>
     {% block script %}{% endblock %}
 </body>
 </html>
