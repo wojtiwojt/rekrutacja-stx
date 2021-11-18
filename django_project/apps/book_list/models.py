@@ -20,7 +20,10 @@ class Book(models.Model):
     publication_language = models.CharField(max_length=255, blank=False)
 
     def __str__(self):
-        return f"{self.title} - {self.publication_date_year} / {self.publication_date_month} / {self.publication_date_day}"
+        return (
+            f"{self.title} - {self.publication_date_year} / "
+            f"{self.publication_date_month} / {self.publication_date_day}"
+        )
 
     def save(self, *args, **kwargs):
         all_spare_dates = []

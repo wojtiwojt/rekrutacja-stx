@@ -92,21 +92,17 @@
             noResultsText: 'Brak wyników',
             events: {
                     searchPost: function (resultsFromServer, origJQElement) {
-                        console.log(origJQElement[0].value)
                         return resultsFromServer.filter(element => element.includes(origJQElement[0].value));
                         }
                     }
                 
-                });
-        console.log($('#lang').text())
-        
+                });        
         if ($('#lang').text() !== '') {
             $('.basicAutoComplete').autoComplete('set', { value: $('#lang').text(), text: $('#lang').text() });      
         };
 
         $('.basicAutoComplete').on('autocomplete.select', function (evt, item) {
             $('input[name="publication_language"]').val(JSON.stringify(item).replace(/"/g, ''));
-            console.log(JSON.stringify(item))
         });
         
     }); 
