@@ -19,7 +19,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container pl-4">
-        <a class="navbar-brand" href="#">Spis książek</a>
+        <a class="navbar-brand" href="{% url 'book-list' %}">Spis książek</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,9 +29,24 @@
             <li class="nav-item">
               <a class="nav-link" href="{% url 'add-book' %}"><i class="ri-file-add-line"></i> Dodaj książkę</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'import-books' %}"><i class="ri-download-cloud-2-line"></i> Importuj książki</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'delete-all' %}"><i class="ri-delete-bin-2-fill"></i> Usuń wszystkie książki</a>
+            </li>
         </div>
     </div>
       </nav>
+      <div class="container">
+        {% if messages %}
+          {% for message in messages %}
+            <div class="alert alert-{{ message.tags }}">
+              {{ message }}
+            </div>
+          {% endfor %}
+        {% endif %}
+      </div>
 
       <div class="container">
         <div class="row mx-auto">

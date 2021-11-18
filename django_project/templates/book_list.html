@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block content %}
-
+{% if page_obj %}
 <div class="table-responsive">
     <table class="table table-bordered">
     <thead class="thead-dark">
@@ -18,12 +18,19 @@
         </tr>
     </thead>
     <tbody>
-    {% for book in books %}
+    {% for book in page_obj %}
         <tr>
         <td>
+        {% if book.cover_url %}
+        <a href="{{ book.cover_url }}">
             <img
-            src={% if book.cover_url %}{{ book.cover_url }}{% else %}{% static 'books/no_cover.png' %}{% endif %}
+            src={{ book.cover_url }}
+            /></a>
+        {% else %}
+            <img
+            src={% static 'books/no_cover.png' %}
             />
+        {% endif %}
         </td>
         <td>{{ book.title }}</td>
         <td>
@@ -44,11 +51,41 @@
         </td>
         <td>{{ book.publication_language }}</td>
         </td>
-        <td><a href="{% url 'edit-book' book.id %}">edytuj</a></td>
+        <td>
+            <a href="{% url 'edit-book' book.id %}">edytuj</a>
+            <a href="{% url 'delete-book' book.id %}">usuń</a>
+        </td>
         </tr>
     {% endfor %}
     </tbody>
     </table>
 </div>
+{% else %}
+<div class="mb-3">
+    <h3>Brak obiektów w bazie. <a href="{% url 'add-book' %}">Dodaj</a> lub <a href="{% url 'import-books' %}">importuj</a> książki.</h3>
+</div>
+{% endif %}
+{% if page_obj %}
+<div class="pagination">
+    <span class="step-links">
+        {% if page_obj.has_previous %}
+            <a href="?page=1{% if request.GET.title %}&title={{ request.GET.title }}{% endif %}{% if request.GET.author %}&author={{ request.GET.author }}{% endif %}{% if request.GET.language %}&language={{ request.GET.language }}{% endif %}{% if request.GET.date_start %}&date_start={{ request.GET.date_start }}{% endif %}{% if request.GET.date_end %}&date_end={{ request.GET.date_end }}{% endif %}">&laquo; Początek</a>
+            <a href="?page={{ page_obj.previous_page_number }}{% if request.GET.title %}&title={{ request.GET.title }}{% endif %}{% if request.GET.author %}&author={{ request.GET.author }}{% endif %}{% if request.GET.language %}&language={{ request.GET.language }}{% endif %}{% if request.GET.date_start %}&date_start={{ request.GET.date_start }}{% endif %}{% if request.GET.date_end %}&date_end={{ request.GET.date_end }}{% endif %}">Wstecz</a>
+        {% endif %}
 
+        <span class="current">
+            Strona {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+        </span>
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}{% if request.GET.title %}&title={{ request.GET.title }}{% endif %}{% if request.GET.author %}&author={{ request.GET.author }}{% endif %}{% if request.GET.language %}&language={{ request.GET.language }}{% endif %}{% if request.GET.date_start %}&date_start={{ request.GET.date_start }}{% endif %}{% if request.GET.date_end %}&date_end={{ request.GET.date_end }}{% endif %}">Następna</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}{% if request.GET.title %}&title={{ request.GET.title }}{% endif %}{% if request.GET.author %}&author={{ request.GET.author }}{% endif %}{% if request.GET.language %}&language={{ request.GET.language }}{% endif %}{% if request.GET.date_start %}&date_start={{ request.GET.date_start }}{% endif %}{% if request.GET.date_end %}&date_end={{ request.GET.date_end }}{% endif %}">Ostatnia &raquo;</a>
+        {% endif %}
+    </span>
+</div>
+{% if books_in_search %}
+<div>Liczba wyników dla wyszukiwania: {{ books_in_search }}</div>
+{% endif %}
+<div>Liczba wszystkich książek w bazie: {{ books_count }}</div>
+{% endif %}
 {% endblock content %}
