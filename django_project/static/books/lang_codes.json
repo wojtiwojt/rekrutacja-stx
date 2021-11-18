@@ -1,0 +1,2282 @@
+[
+    {
+        "value": "bzt",
+        "text": "brithenig (bzt)"
+    },
+    {
+        "value": "jdt",
+        "text": "dżuhuri (jdt)"
+    },
+    {
+        "value": "eo",
+        "text": "esperanto (eo)"
+    },
+    {
+        "value": "eom",
+        "text": "esperanto (morfem) (eom)"
+    },
+    {
+        "value": "ee",
+        "text": "ewe (ee)"
+    },
+    {
+        "value": "hi",
+        "text": "hindi (hi)"
+    },
+    {
+        "value": "io",
+        "text": "ido (io)"
+    },
+    {
+        "value": "ia",
+        "text": "interlingua (ia)"
+    },
+    {
+        "value": "iu",
+        "text": "inuktitut (iu)"
+    },
+    {
+        "value": "roa",
+        "text": "jèrriais (roa)"
+    },
+    {
+        "value": "yi",
+        "text": "jidysz (yi)"
+    },
+    {
+        "value": "lad",
+        "text": "ladino (lad)"
+    },
+    {
+        "value": "ln",
+        "text": "lingala (ln)"
+    },
+    {
+        "value": "jbo",
+        "text": "lojban (jbo)"
+    },
+    {
+        "value": "nov",
+        "text": "novial (nov)"
+    },
+    {
+        "value": "pap",
+        "text": "papiamento (pap)"
+    },
+    {
+        "value": "pjt",
+        "text": "pitjantjatjara (pjt)"
+    },
+    {
+        "value": "pjm",
+        "text": "polski język migowy (pjm)"
+    },
+    {
+        "value": "qya",
+        "text": "quenya (qya)"
+    },
+    {
+        "value": "sa",
+        "text": "sanskryt (sa)"
+    },
+    {
+        "value": "slovio",
+        "text": "slovio (slovio)"
+    },
+    {
+        "value": "srn",
+        "text": "sranan tongo (srn)"
+    },
+    {
+        "value": "pl-foreign",
+        "text": "termin obcy w języku polskim (pl-foreign)"
+    },
+    {
+        "value": "tet",
+        "text": "tetum (tet)"
+    },
+    {
+        "value": "tpi",
+        "text": "tok pisin (tpi)"
+    },
+    {
+        "value": "tpn",
+        "text": "tupinambá (tpn)"
+    },
+    {
+        "value": "inter",
+        "text": "użycie międzynarodowe (inter)"
+    },
+    {
+        "value": "vo",
+        "text": "volapük (vo)"
+    },
+    {
+        "value": "zh-char",
+        "text": "znak chiński (zh-char)"
+    },
+    {
+        "value": "vaj",
+        "text": "język !o!kung (vaj)"
+    },
+    {
+        "value": "nmn",
+        "text": "język !Xóõ (nmn)"
+    },
+    {
+        "value": "cau",
+        "text": "język abazyński (cau)"
+    },
+    {
+        "value": "ab",
+        "text": "język abchaski (ab)"
+    },
+    {
+        "value": "abe",
+        "text": "język abenaki (abe)"
+    },
+    {
+        "value": "ady",
+        "text": "język adygejski (ady)"
+    },
+    {
+        "value": "aa",
+        "text": "język afar (aa)"
+    },
+    {
+        "value": "af",
+        "text": "język afrykanerski (af)"
+    },
+    {
+        "value": "ay",
+        "text": "język ajmara (ay)"
+    },
+    {
+        "value": "akk",
+        "text": "język akadyjski (akk)"
+    },
+    {
+        "value": "akl",
+        "text": "język aklanon (akl)"
+    },
+    {
+        "value": "akz",
+        "text": "język alabama (akz)"
+    },
+    {
+        "value": "sq",
+        "text": "język albański (sq)"
+    },
+    {
+        "value": "als",
+        "text": "język alemański (als)"
+    },
+    {
+        "value": "ale",
+        "text": "język aleucki (ale)"
+    },
+    {
+        "value": "am",
+        "text": "język amharski (am)"
+    },
+    {
+        "value": "en",
+        "text": "język angielski (en)"
+    },
+    {
+        "value": "ar",
+        "text": "język arabski (ar)"
+    },
+    {
+        "value": "an",
+        "text": "język aragoński (an)"
+    },
+    {
+        "value": "arc",
+        "text": "język aramejski (arc)"
+    },
+    {
+        "value": "arp",
+        "text": "język arapaho (arp)"
+    },
+    {
+        "value": "roa-rup",
+        "text": "język arumuński (roa-rup)"
+    },
+    {
+        "value": "as",
+        "text": "język asamski (as)"
+    },
+    {
+        "value": "ast",
+        "text": "język asturyjski (ast)"
+    },
+    {
+        "value": "av",
+        "text": "język awarski (av)"
+    },
+    {
+        "value": "az",
+        "text": "język azerski (az)"
+    },
+    {
+        "value": "bm",
+        "text": "język bambara (bm)"
+    },
+    {
+        "value": "map-bms",
+        "text": "język banjumasański (map-bms)"
+    },
+    {
+        "value": "eu",
+        "text": "język baskijski (eu)"
+    },
+    {
+        "value": "ba",
+        "text": "język baszkirski (ba)"
+    },
+    {
+        "value": "bar",
+        "text": "język bawarski (bar)"
+    },
+    {
+        "value": "bal",
+        "text": "język beludżi (bal)"
+    },
+    {
+        "value": "bn",
+        "text": "język bengalski (bn)"
+    },
+    {
+        "value": "be",
+        "text": "język białoruski (be)"
+    },
+    {
+        "value": "be-tarask",
+        "text": "język białoruski (taraszkiewica) (be-tarask)"
+    },
+    {
+        "value": "my",
+        "text": "język birmański (my)"
+    },
+    {
+        "value": "egl",
+        "text": "język boloński (egl)"
+    },
+    {
+        "value": "bs",
+        "text": "język bośniacki (bs)"
+    },
+    {
+        "value": "br",
+        "text": "język bretoński (br)"
+    },
+    {
+        "value": "bg",
+        "text": "język bułgarski (bg)"
+    },
+    {
+        "value": "ceb",
+        "text": "język cebuano (ceb)"
+    },
+    {
+        "value": "kjh",
+        "text": "język chakaski (kjh)"
+    },
+    {
+        "value": "kca-k",
+        "text": "język chantyjski (kazymski) (kca-k)"
+    },
+    {
+        "value": "kca-s",
+        "text": "język chantyjski (surgucki) (kca-s)"
+    },
+    {
+        "value": "kca-sz",
+        "text": "język chantyjski (szurykszarski) (kca-sz)"
+    },
+    {
+        "value": "kca-w",
+        "text": "język chantyjski (wachowski) (kca-w)"
+    },
+    {
+        "value": "nai",
+        "text": "język chickasaw (nai)"
+    },
+    {
+        "value": "zh",
+        "text": "język chiński standardowy (zh)"
+    },
+    {
+        "value": "hr",
+        "text": "język chorwacki (hr)"
+    },
+    {
+        "value": "chg",
+        "text": "język czagatajski (chg)"
+    },
+    {
+        "value": "ch",
+        "text": "język czamorro (ch)"
+    },
+    {
+        "value": "srp",
+        "text": "język czarnogórski (srp)"
+    },
+    {
+        "value": "ce",
+        "text": "język czeczeński (ce)"
+    },
+    {
+        "value": "cs",
+        "text": "język czeski (cs)"
+    },
+    {
+        "value": "chr",
+        "text": "język czirokeski (chr)"
+    },
+    {
+        "value": "cv",
+        "text": "język czuwaski (cv)"
+    },
+    {
+        "value": "dlm",
+        "text": "język dalmatyński (dlm)"
+    },
+    {
+        "value": "nds",
+        "text": "język dolnoniemiecki (nds)"
+    },
+    {
+        "value": "dsb",
+        "text": "język dolnołużycki (dsb)"
+    },
+    {
+        "value": "da",
+        "text": "język duński (da)"
+    },
+    {
+        "value": "dz",
+        "text": "język dzongkha (dz)"
+    },
+    {
+        "value": "myv",
+        "text": "język erzja (myv)"
+    },
+    {
+        "value": "et",
+        "text": "język estoński (et)"
+    },
+    {
+        "value": "ett",
+        "text": "język etruski (ett)"
+    },
+    {
+        "value": "fo",
+        "text": "język farerski (fo)"
+    },
+    {
+        "value": "phn",
+        "text": "język fenicki (phn)"
+    },
+    {
+        "value": "fj",
+        "text": "język fidżyjski (fj)"
+    },
+    {
+        "value": "fil",
+        "text": "język filipino (fil)"
+    },
+    {
+        "value": "fi",
+        "text": "język fiński (fi)"
+    },
+    {
+        "value": "fr",
+        "text": "język francuski (fr)"
+    },
+    {
+        "value": "fur",
+        "text": "język friulski (fur)"
+    },
+    {
+        "value": "fy",
+        "text": "język fryzyjski (fy)"
+    },
+    {
+        "value": "ff",
+        "text": "język ful (ff)"
+    },
+    {
+        "value": "gaa",
+        "text": "język ga (gaa)"
+    },
+    {
+        "value": "tut",
+        "text": "język gagauski (tut)"
+    },
+    {
+        "value": "gl",
+        "text": "język galicyjski (gl)"
+    },
+    {
+        "value": "oci-gsc",
+        "text": "język gaskoński (oci-gsc)"
+    },
+    {
+        "value": "got",
+        "text": "język gocki (got)"
+    },
+    {
+        "value": "kl",
+        "text": "język grenlandzki (kl)"
+    },
+    {
+        "value": "ka",
+        "text": "język gruziński (ka)"
+    },
+    {
+        "value": "gn",
+        "text": "język guarani (gn)"
+    },
+    {
+        "value": "gu",
+        "text": "język gudźarati (gu)"
+    },
+    {
+        "value": "gez",
+        "text": "język gyyz (gez)"
+    },
+    {
+        "value": "hsb",
+        "text": "język górnołużycki (hsb)"
+    },
+    {
+        "value": "ht",
+        "text": "język haitański (ht)"
+    },
+    {
+        "value": "ha",
+        "text": "język hausa (ha)"
+    },
+    {
+        "value": "haw",
+        "text": "język hawajski (haw)"
+    },
+    {
+        "value": "he",
+        "text": "język hebrajski (he)"
+    },
+    {
+        "value": "hil",
+        "text": "język hiligaynon (hil)"
+    },
+    {
+        "value": "es",
+        "text": "język hiszpański (es)"
+    },
+    {
+        "value": "nl",
+        "text": "język holenderski (nl)"
+    },
+    {
+        "value": "hup",
+        "text": "język hupa (hup)"
+    },
+    {
+        "value": "ilo",
+        "text": "język ilokano (ilo)"
+    },
+    {
+        "value": "id",
+        "text": "język indonezyjski (id)"
+    },
+    {
+        "value": "inh",
+        "text": "język inguski (inh)"
+    },
+    {
+        "value": "ga",
+        "text": "język irlandzki (ga)"
+    },
+    {
+        "value": "is",
+        "text": "język islandzki (is)"
+    },
+    {
+        "value": "ist",
+        "text": "język istriocki (ist)"
+    },
+    {
+        "value": "ja",
+        "text": "język japoński (ja)"
+    },
+    {
+        "value": "jv",
+        "text": "język jawajski (jv)"
+    },
+    {
+        "value": "xsv",
+        "text": "język jaćwieski (xsv)"
+    },
+    {
+        "value": "yor",
+        "text": "język joruba (yor)"
+    },
+    {
+        "value": "kab",
+        "text": "język kabylski (kab)"
+    },
+    {
+        "value": "cak",
+        "text": "język kakczikel (cak)"
+    },
+    {
+        "value": "kn",
+        "text": "język kannada (kn)"
+    },
+    {
+        "value": "krc",
+        "text": "język karaczajsko-bałkarski (krc)"
+    },
+    {
+        "value": "kaa",
+        "text": "język karakałpacki (kaa)"
+    },
+    {
+        "value": "ks",
+        "text": "język kaszmirski (ks)"
+    },
+    {
+        "value": "csb",
+        "text": "język kaszubski (csb)"
+    },
+    {
+        "value": "ca",
+        "text": "język kataloński (ca)"
+    },
+    {
+        "value": "kk",
+        "text": "język kazachski (kk)"
+    },
+    {
+        "value": "qu",
+        "text": "język keczua (qu)"
+    },
+    {
+        "value": "km",
+        "text": "język khmerski (km)"
+    },
+    {
+        "value": "ky",
+        "text": "język kirgiski (ky)"
+    },
+    {
+        "value": "tlh",
+        "text": "język klingoński (tlh)"
+    },
+    {
+        "value": "kv",
+        "text": "język komi (kv)"
+    },
+    {
+        "value": "kom",
+        "text": "język komi-jaźwiński (kom)"
+    },
+    {
+        "value": "koi",
+        "text": "język komi-permiacki (koi)"
+    },
+    {
+        "value": "kpv",
+        "text": "język komi-zyriański (kpv)"
+    },
+    {
+        "value": "kok",
+        "text": "język konkani (kok)"
+    },
+    {
+        "value": "cop",
+        "text": "język koptyjski (cop)"
+    },
+    {
+        "value": "ko",
+        "text": "język koreański (ko)"
+    },
+    {
+        "value": "kw",
+        "text": "język kornijski (kw)"
+    },
+    {
+        "value": "co",
+        "text": "język korsykański (co)"
+    },
+    {
+        "value": "cr",
+        "text": "język kri (cr)"
+    },
+    {
+        "value": "crh",
+        "text": "język krymskotatarski (crh)"
+    },
+    {
+        "value": "kum",
+        "text": "język kumycki (kum)"
+    },
+    {
+        "value": "lld",
+        "text": "język ladyński (lld)"
+    },
+    {
+        "value": "oci-lnc",
+        "text": "język langwedocki (oci-lnc)"
+    },
+    {
+        "value": "lo",
+        "text": "język laotański (lo)"
+    },
+    {
+        "value": "lez",
+        "text": "język lezgiński (lez)"
+    },
+    {
+        "value": "lij",
+        "text": "język liguryjski (lij)"
+    },
+    {
+        "value": "lim",
+        "text": "język limburski (lim)"
+    },
+    {
+        "value": "lt",
+        "text": "język litewski (lt)"
+    },
+    {
+        "value": "lmo",
+        "text": "język lombardzki (lmo)"
+    },
+    {
+        "value": "lb",
+        "text": "język luksemburski (lb)"
+    },
+    {
+        "value": "luo",
+        "text": "język luo (luo)"
+    },
+    {
+        "value": "mk",
+        "text": "język macedoński (mk)"
+    },
+    {
+        "value": "ml",
+        "text": "język malajalam (ml)"
+    },
+    {
+        "value": "ms",
+        "text": "język malajski (ms)"
+    },
+    {
+        "value": "dv",
+        "text": "język malediwski (dv)"
+    },
+    {
+        "value": "mg",
+        "text": "język malgaski (mg)"
+    },
+    {
+        "value": "mt",
+        "text": "język maltański (mt)"
+    },
+    {
+        "value": "gv",
+        "text": "język manx (gv)"
+    },
+    {
+        "value": "mi",
+        "text": "język maoryski (mi)"
+    },
+    {
+        "value": "mr",
+        "text": "język marathi (mr)"
+    },
+    {
+        "value": "chm",
+        "text": "język maryjski (chm)"
+    },
+    {
+        "value": "mzn",
+        "text": "język mazanderański (mzn)"
+    },
+    {
+        "value": "mic",
+        "text": "język mikmak (mic)"
+    },
+    {
+        "value": "zh-min-nan",
+        "text": "język minnan (zh-min-nan)"
+    },
+    {
+        "value": "mn",
+        "text": "język mongolski (mn)"
+    },
+    {
+        "value": "meu",
+        "text": "język motu (meu)"
+    },
+    {
+        "value": "mo",
+        "text": "język mołdawski (mo)"
+    },
+    {
+        "value": "nah",
+        "text": "język nahuatl (nah)"
+    },
+    {
+        "value": "na",
+        "text": "język nauruański (na)"
+    },
+    {
+        "value": "nv",
+        "text": "język nawaho (nv)"
+    },
+    {
+        "value": "nap",
+        "text": "język neapolitański (nap)"
+    },
+    {
+        "value": "ne",
+        "text": "język nepalski (ne)"
+    },
+    {
+        "value": "new",
+        "text": "język newarski (new)"
+    },
+    {
+        "value": "de",
+        "text": "język niemiecki (de)"
+    },
+    {
+        "value": "nrm",
+        "text": "język normandzki (nrm)"
+    },
+    {
+        "value": "nb",
+        "text": "język norweski (bokmål) (nb)"
+    },
+    {
+        "value": "nn",
+        "text": "język norweski (nynorsk) (nn)"
+    },
+    {
+        "value": "el",
+        "text": "język nowogrecki (el)"
+    },
+    {
+        "value": "or",
+        "text": "język orija (or)"
+    },
+    {
+        "value": "hy",
+        "text": "język ormiański (hy)"
+    },
+    {
+        "value": "om",
+        "text": "język oromo (om)"
+    },
+    {
+        "value": "os",
+        "text": "język osetyjski (os)"
+    },
+    {
+        "value": "ota",
+        "text": "język osmański (ota)"
+    },
+    {
+        "value": "pi",
+        "text": "język pali (pi)"
+    },
+    {
+        "value": "ps",
+        "text": "język paszto (ps)"
+    },
+    {
+        "value": "pa",
+        "text": "język pendżabski (pa)"
+    },
+    {
+        "value": "fa",
+        "text": "język perski (fa)"
+    },
+    {
+        "value": "pms",
+        "text": "język piemoncki (pms)"
+    },
+    {
+        "value": "pcd",
+        "text": "język pikardyjski (pcd)"
+    },
+    {
+        "value": "myp",
+        "text": "język pirahã (myp)"
+    },
+    {
+        "value": "pl",
+        "text": "język polski (pl)"
+    },
+    {
+        "value": "pt",
+        "text": "język portugalski (pt)"
+    },
+    {
+        "value": "pox",
+        "text": "język połabski (pox)"
+    },
+    {
+        "value": "oc",
+        "text": "język prowansalski (oc)"
+    },
+    {
+        "value": "prg",
+        "text": "język pruski (prg)"
+    },
+    {
+        "value": "frr",
+        "text": "język północnofryzyjski (frr)"
+    },
+    {
+        "value": "sme",
+        "text": "język północnolapoński (sme)"
+    },
+    {
+        "value": "rar",
+        "text": "język rarotonga (rar)"
+    },
+    {
+        "value": "roh",
+        "text": "język romansz (roh)"
+    },
+    {
+        "value": "rom",
+        "text": "język romski (rom)"
+    },
+    {
+        "value": "ru",
+        "text": "język rosyjski (ru)"
+    },
+    {
+        "value": "ro",
+        "text": "język rumuński (ro)"
+    },
+    {
+        "value": "rn",
+        "text": "język rundi (rn)"
+    },
+    {
+        "value": "crp-rsn",
+        "text": "język russenorsk (crp-rsn)"
+    },
+    {
+        "value": "sc",
+        "text": "język sardyński (sc)"
+    },
+    {
+        "value": "sr",
+        "text": "język serbski (sr)"
+    },
+    {
+        "value": "sth",
+        "text": "język shelta (sth)"
+    },
+    {
+        "value": "sn",
+        "text": "język shona (sn)"
+    },
+    {
+        "value": "sd",
+        "text": "język sindhi (sd)"
+    },
+    {
+        "value": "sko",
+        "text": "język sko (sko)"
+    },
+    {
+        "value": "sms",
+        "text": "język skolt (sms)"
+    },
+    {
+        "value": "so",
+        "text": "język somalijski (so)"
+    },
+    {
+        "value": "ckb",
+        "text": "język sorani (ckb)"
+    },
+    {
+        "value": "cu",
+        "text": "język staro-cerkiewno-słowiański (cu)"
+    },
+    {
+        "value": "goh",
+        "text": "język staro-wysoko-niemiecki (goh)"
+    },
+    {
+        "value": "ang",
+        "text": "język staroangielski (ang)"
+    },
+    {
+        "value": "egy",
+        "text": "język staroegipski (egy)"
+    },
+    {
+        "value": "fro",
+        "text": "język starofrancuski (fro)"
+    },
+    {
+        "value": "gr",
+        "text": "język starogrecki (gr)"
+    },
+    {
+        "value": "sga",
+        "text": "język staroirlandzki (sga)"
+    },
+    {
+        "value": "non",
+        "text": "język staronordyjski (non)"
+    },
+    {
+        "value": "xcl",
+        "text": "język staroormiański (xcl)"
+    },
+    {
+        "value": "sw",
+        "text": "język suahili (sw)"
+    },
+    {
+        "value": "sux",
+        "text": "język sumeryjski (sux)"
+    },
+    {
+        "value": "su",
+        "text": "język sundajski (su)"
+    },
+    {
+        "value": "sus",
+        "text": "język susu (sus)"
+    },
+    {
+        "value": "scn",
+        "text": "język sycylijski (scn)"
+    },
+    {
+        "value": "si",
+        "text": "język syngaleski (si)"
+    },
+    {
+        "value": "sco",
+        "text": "język szkocki (sco)"
+    },
+    {
+        "value": "gla",
+        "text": "język szkocki gaelicki (gla)"
+    },
+    {
+        "value": "cjs",
+        "text": "język szorski (cjs)"
+    },
+    {
+        "value": "gsw",
+        "text": "język szwabski (gsw)"
+    },
+    {
+        "value": "sv",
+        "text": "język szwedzki (sv)"
+    },
+    {
+        "value": "sk",
+        "text": "język słowacki (sk)"
+    },
+    {
+        "value": "sl",
+        "text": "język słoweński (sl)"
+    },
+    {
+        "value": "csb-slo",
+        "text": "język słowiński (csb-slo)"
+    },
+    {
+        "value": "tab",
+        "text": "język tabasarański (tab)"
+    },
+    {
+        "value": "tg",
+        "text": "język tadżycki (tg)"
+    },
+    {
+        "value": "tl",
+        "text": "język tagalski (tl)"
+    },
+    {
+        "value": "ty",
+        "text": "język tahitański (ty)"
+    },
+    {
+        "value": "th",
+        "text": "język tajski (th)"
+    },
+    {
+        "value": "tmh",
+        "text": "język tamaszek (tmh)"
+    },
+    {
+        "value": "tzm",
+        "text": "język tamazight (tzm)"
+    },
+    {
+        "value": "ta",
+        "text": "język tamilski (ta)"
+    },
+    {
+        "value": "shi",
+        "text": "język tashelhiyt (shi)"
+    },
+    {
+        "value": "tt",
+        "text": "język tatarski (tt)"
+    },
+    {
+        "value": "te",
+        "text": "język telugu (te)"
+    },
+    {
+        "value": "ti",
+        "text": "język tigrinia (ti)"
+    },
+    {
+        "value": "to",
+        "text": "język tonga (to)"
+    },
+    {
+        "value": "tr",
+        "text": "język turecki (tr)"
+    },
+    {
+        "value": "tk",
+        "text": "język turkmeński (tk)"
+    },
+    {
+        "value": "tvl",
+        "text": "język tuvalu (tvl)"
+    },
+    {
+        "value": "tyv",
+        "text": "język tuwiński (tyv)"
+    },
+    {
+        "value": "tw",
+        "text": "język twi (tw)"
+    },
+    {
+        "value": "bo",
+        "text": "język tybetański (bo)"
+    },
+    {
+        "value": "xct",
+        "text": "język tybetański klasyczny (xct)"
+    },
+    {
+        "value": "udm",
+        "text": "język udmurcki (udm)"
+    },
+    {
+        "value": "ug",
+        "text": "język ujgurski (ug)"
+    },
+    {
+        "value": "uk",
+        "text": "język ukraiński (uk)"
+    },
+    {
+        "value": "ur",
+        "text": "język urdu (ur)"
+    },
+    {
+        "value": "wls",
+        "text": "język uwea (wls)"
+    },
+    {
+        "value": "uz",
+        "text": "język uzbecki (uz)"
+    },
+    {
+        "value": "fiu",
+        "text": "język võro (fiu)"
+    },
+    {
+        "value": "cy",
+        "text": "język walijski (cy)"
+    },
+    {
+        "value": "wa",
+        "text": "język waloński (wa)"
+    },
+    {
+        "value": "war",
+        "text": "język warajski (war)"
+    },
+    {
+        "value": "emen",
+        "text": "język wczesny nowoangielski (emen)"
+    },
+    {
+        "value": "vec",
+        "text": "język wenecki (vec)"
+    },
+    {
+        "value": "vep",
+        "text": "język wepski (vep)"
+    },
+    {
+        "value": "vi",
+        "text": "język wietnamski (vi)"
+    },
+    {
+        "value": "wym",
+        "text": "język wilamowski (wym)"
+    },
+    {
+        "value": "wo",
+        "text": "język wolof (wo)"
+    },
+    {
+        "value": "art-is",
+        "text": "język wysokoislandzki (art-is)"
+    },
+    {
+        "value": "hu",
+        "text": "język węgierski (hu)"
+    },
+    {
+        "value": "it",
+        "text": "język włoski (it)"
+    },
+    {
+        "value": "ypk",
+        "text": "język yupik środkowy (ypk)"
+    },
+    {
+        "value": "vls",
+        "text": "język zachodnioflamandzki (vls)"
+    },
+    {
+        "value": "zrp",
+        "text": "język zarfatit (zrp)"
+    },
+    {
+        "value": "zza",
+        "text": "język zazaki (zza)"
+    },
+    {
+        "value": "zea",
+        "text": "język zelandzki (zea)"
+    },
+    {
+        "value": "zu",
+        "text": "język zulu (zu)"
+    },
+    {
+        "value": "la",
+        "text": "język łaciński (la)"
+    },
+    {
+        "value": "ltg",
+        "text": "język łatgalski (ltg)"
+    },
+    {
+        "value": "lv",
+        "text": "język łotewski (lv)"
+    },
+    {
+        "value": "gml",
+        "text": "język średnio-dolno-niemiecki (gml)"
+    },
+    {
+        "value": "gmh",
+        "text": "język średnio-wysoko-niemiecki (gmh)"
+    },
+    {
+        "value": "enm",
+        "text": "język średnioangielski (enm)"
+    },
+    {
+        "value": "bat",
+        "text": "język żmudzki (bat)"
+    },
+    {
+        "value": "xal",
+        "text": "język kałmucki (xal)"
+    },
+    {
+        "value": "apq",
+        "text": "język a-pucikwar (apq)"
+    },
+    {
+        "value": "sah",
+        "text": "język jakucki (sah)"
+    },
+    {
+        "value": "lzz",
+        "text": "język lazyjski (lzz)"
+    },
+    {
+        "value": "orv",
+        "text": "język staroruski (orv)"
+    },
+    {
+        "value": "kmr",
+        "text": "język kurmandżi (kmr)"
+    },
+    {
+        "value": "neu",
+        "text": "język neo (neu)"
+    },
+    {
+        "value": "bi",
+        "text": "język bislama (bi)"
+    },
+    {
+        "value": "stq",
+        "text": "język fryzyjski saterlandzki (stq)"
+    },
+    {
+        "value": "pdc",
+        "text": "język pensylwański (pdc)"
+    },
+    {
+        "value": "pdt",
+        "text": "język plautdietsch (pdt)"
+    },
+    {
+        "value": "lfn",
+        "text": "Lingua Franca Nova (lfn)"
+    },
+    {
+        "value": "rue",
+        "text": "język rusiński (rue)"
+    },
+    {
+        "value": "aqc",
+        "text": "język arczyński (aqc)"
+    },
+    {
+        "value": "xh",
+        "text": "język xhosa (xh)"
+    },
+    {
+        "value": "xsr",
+        "text": "język szerpa (xsr)"
+    },
+    {
+        "value": "roc",
+        "text": "romániço (roc)"
+    },
+    {
+        "value": "art-wen",
+        "text": "wenedyk (art-wen)"
+    },
+    {
+        "value": "prs",
+        "text": "język dari (prs)"
+    },
+    {
+        "value": "hbs",
+        "text": "język serbsko-chorwacki (hbs)"
+    },
+    {
+        "value": "bug",
+        "text": "język bugijski (bug)"
+    },
+    {
+        "value": "krl",
+        "text": "język karelski (krl)"
+    },
+    {
+        "value": "mdf",
+        "text": "język moksza (mdf)"
+    },
+    {
+        "value": "amm",
+        "text": "język ama (amm)"
+    },
+    {
+        "value": "ext",
+        "text": "język estremadurski (ext)"
+    },
+    {
+        "value": "dlg",
+        "text": "język dołgański (dlg)"
+    },
+    {
+        "value": "evn",
+        "text": "język ewenkijski (evn)"
+    },
+    {
+        "value": "twf-tao",
+        "text": "język taos (twf-tao)"
+    },
+    {
+        "value": "mwl",
+        "text": "język mirandyjski (mwl)"
+    },
+    {
+        "value": "peo",
+        "text": "język staroperski (peo)"
+    },
+    {
+        "value": "kbd",
+        "text": "język kabardyjski (kbd)"
+    },
+    {
+        "value": "kpt",
+        "text": "język karatajski (kpt)"
+    },
+    {
+        "value": "kdr",
+        "text": "język karaimski (kdr)"
+    },
+    {
+        "value": "yrk",
+        "text": "język nieniecki (yrk)"
+    },
+    {
+        "value": "tig",
+        "text": "język tigre (tig)"
+    },
+    {
+        "value": "roa-tara",
+        "text": "język tarencki (roa-tara)"
+    },
+    {
+        "value": "glk",
+        "text": "język giliański (glk)"
+    },
+    {
+        "value": "rhg",
+        "text": "język rohingya (rhg)"
+    },
+    {
+        "value": "nso",
+        "text": "język północny sotho (nso)"
+    },
+    {
+        "value": "ik",
+        "text": "język inupiak (ik)"
+    },
+    {
+        "value": "ny",
+        "text": "język cziczewa (ny)"
+    },
+    {
+        "value": "hz",
+        "text": "język herero (hz)"
+    },
+    {
+        "value": "abn",
+        "text": "język abua (abn)"
+    },
+    {
+        "value": "ach",
+        "text": "język aczoli (ach)"
+    },
+    {
+        "value": "adj",
+        "text": "język adjukru (adj)"
+    },
+    {
+        "value": "ae",
+        "text": "język awestyjski (ae)"
+    },
+    {
+        "value": "vot",
+        "text": "język wotycki (vot)"
+    },
+    {
+        "value": "mh",
+        "text": "język marszalski (mh)"
+    },
+    {
+        "value": "tum",
+        "text": "język tumbuka (tum)"
+    },
+    {
+        "value": "shn",
+        "text": "język szan (shn)"
+    },
+    {
+        "value": "lg",
+        "text": "język luganda (lg)"
+    },
+    {
+        "value": "moh",
+        "text": "język mohawk (moh)"
+    },
+    {
+        "value": "min",
+        "text": "język minangkabau (min)"
+    },
+    {
+        "value": "ak",
+        "text": "język akan (ak)"
+    },
+    {
+        "value": "yue",
+        "text": "język kantoński (yue)"
+    },
+    {
+        "value": "syc",
+        "text": "język syryjski klasyczny (syc)"
+    },
+    {
+        "value": "osx",
+        "text": "język starosaksoński (osx)"
+    },
+    {
+        "value": "mwr",
+        "text": "język marwari (mwr)"
+    },
+    {
+        "value": "sg",
+        "text": "język sango (sg)"
+    },
+    {
+        "value": "kr",
+        "text": "język kanuri (kr)"
+    },
+    {
+        "value": "ho",
+        "text": "hiri motu (ho)"
+    },
+    {
+        "value": "mnw",
+        "text": "język mon (mnw)"
+    },
+    {
+        "value": "sjd",
+        "text": "język kildin (sjd)"
+    },
+    {
+        "value": "ban",
+        "text": "język balijski (ban)"
+    },
+    {
+        "value": "mns",
+        "text": "język mansyjski (mns)"
+    },
+    {
+        "value": "ckt",
+        "text": "język czukocki (ckt)"
+    },
+    {
+        "value": "smn",
+        "text": "język inari (smn)"
+    },
+    {
+        "value": "nci",
+        "text": "język nahuatl klasyczny (nci)"
+    },
+    {
+        "value": "nhn",
+        "text": "język nahuatl centralnego Meksyku (nhn)"
+    },
+    {
+        "value": "yua",
+        "text": "język maya (yua)"
+    },
+    {
+        "value": "klb",
+        "text": "język kiliwa (klb)"
+    },
+    {
+        "value": "xmf",
+        "text": "język megrelski (xmf)"
+    },
+    {
+        "value": "pnt",
+        "text": "język pontyjski (pnt)"
+    },
+    {
+        "value": "uby",
+        "text": "język ubychski (uby)"
+    },
+    {
+        "value": "ket",
+        "text": "język ketyjski (ket)"
+    },
+    {
+        "value": "bsk",
+        "text": "język buruszaski (bsk)"
+    },
+    {
+        "value": "lus",
+        "text": "język mizo (lus)"
+    },
+    {
+        "value": "eve",
+        "text": "język eweński (eve)"
+    },
+    {
+        "value": "nio",
+        "text": "język nganasański (nio)"
+    },
+    {
+        "value": "kpy",
+        "text": "język koriacki (kpy)"
+    },
+    {
+        "value": "alt",
+        "text": "język południowoałtajski (alt)"
+    },
+    {
+        "value": "mnc",
+        "text": "język mandżurski (mnc)"
+    },
+    {
+        "value": "cmg",
+        "text": "język mongolski klasyczny (cmg)"
+    },
+    {
+        "value": "umb",
+        "text": "język umbundu (umb)"
+    },
+    {
+        "value": "hit",
+        "text": "język hetycki (hit)"
+    },
+    {
+        "value": "pnb",
+        "text": "język zachodniopendżabski (pnb)"
+    },
+    {
+        "value": "gil",
+        "text": "język kiribati (gil)"
+    },
+    {
+        "value": "tti",
+        "text": "język tobati (tti)"
+    },
+    {
+        "value": "hif",
+        "text": "hindi fidżyjskie (hif)"
+    },
+    {
+        "value": "gan",
+        "text": "język gan (gan)"
+    },
+    {
+        "value": "tkr",
+        "text": "język cachurski (tkr)"
+    },
+    {
+        "value": "lkt",
+        "text": "język lakota (lkt)"
+    },
+    {
+        "value": "bua",
+        "text": "język buriacki (bua)"
+    },
+    {
+        "value": "mis",
+        "text": "język niwchijski (mis)"
+    },
+    {
+        "value": "gld",
+        "text": "język nanajski (gld)"
+    },
+    {
+        "value": "ain",
+        "text": "język ajnoski (ain)"
+    },
+    {
+        "value": "za",
+        "text": "język zhuang (za)"
+    },
+    {
+        "value": "chy",
+        "text": "język czejeński (chy)"
+    },
+    {
+        "value": "lvk",
+        "text": "język lavukaleve (lvk)"
+    },
+    {
+        "value": "ace",
+        "text": "język aceh (ace)"
+    },
+    {
+        "value": "ie",
+        "text": "occidental (ie)"
+    },
+    {
+        "value": "ksh",
+        "text": "język rypuaryjski (ksh)"
+    },
+    {
+        "value": "bcq",
+        "text": "język bench (bcq)"
+    },
+    {
+        "value": "frp",
+        "text": "język franko-prowansalski (frp)"
+    },
+    {
+        "value": "pam",
+        "text": "język pampango (pam)"
+    },
+    {
+        "value": "ksf",
+        "text": "język bafia (ksf)"
+    },
+    {
+        "value": "nor",
+        "text": "język norweski (riksmål) (nor)"
+    },
+    {
+        "value": "sm",
+        "text": "język samoański (sm)"
+    },
+    {
+        "value": "mus",
+        "text": "język krik (mus)"
+    },
+    {
+        "value": "dng",
+        "text": "język dungański (dng)"
+    },
+    {
+        "value": "lbe",
+        "text": "język lakijski (lbe)"
+    },
+    {
+        "value": "acf",
+        "text": "język antylski (acf)"
+    },
+    {
+        "value": "ykg",
+        "text": "język północnojukagirski (ykg)"
+    },
+    {
+        "value": "ess",
+        "text": "język yupik środkowosyberyjski (ess)"
+    },
+    {
+        "value": "chk",
+        "text": "język chuuk (chk)"
+    },
+    {
+        "value": "bph",
+        "text": "język botlichyjski (bph)"
+    },
+    {
+        "value": "ki",
+        "text": "język kikuju (ki)"
+    },
+    {
+        "value": "mhw",
+        "text": "język mbukushu (mhw)"
+    },
+    {
+        "value": "khb",
+        "text": "język tai lue (khb)"
+    },
+    {
+        "value": "diu",
+        "text": "język diriku (diu)"
+    },
+    {
+        "value": "loz",
+        "text": "język lozi (loz)"
+    },
+    {
+        "value": "rw",
+        "text": "język ruanda (rw)"
+    },
+    {
+        "value": "gdo",
+        "text": "język godoberyjski (gdo)"
+    },
+    {
+        "value": "cho",
+        "text": "język czoktaw (cho)"
+    },
+    {
+        "value": "tkl",
+        "text": "język tokelau (tkl)"
+    },
+    {
+        "value": "mhn",
+        "text": "język mokeński (mhn)"
+    },
+    {
+        "value": "mpm",
+        "text": "język mistek yosondúa (mpm)"
+    },
+    {
+        "value": "roa-gal",
+        "text": "gallo (roa-gal)"
+    },
+    {
+        "value": "djk",
+        "text": "język ndyuka (djk)"
+    },
+    {
+        "value": "bpy",
+        "text": "język bisznuprija-manipuri (bpy)"
+    },
+    {
+        "value": "liv",
+        "text": "język liwski (liv)"
+    },
+    {
+        "value": "ruq",
+        "text": "język meglenorumuński (ruq)"
+    },
+    {
+        "value": "ig",
+        "text": "język igbo (ig)"
+    },
+    {
+        "value": "spl",
+        "text": "język selepet (spl)"
+    },
+    {
+        "value": "pwm",
+        "text": "język molbog (pwm)"
+    },
+    {
+        "value": "txx",
+        "text": "język tatana (txx)"
+    },
+    {
+        "value": "rap",
+        "text": "język rapanui (rap)"
+    },
+    {
+        "value": "niu",
+        "text": "język niue (niu)"
+    },
+    {
+        "value": "wam",
+        "text": "język massachusett (wam)"
+    },
+    {
+        "value": "tsj",
+        "text": "język tshangla (tsj)"
+    },
+    {
+        "value": "itl",
+        "text": "język itelmeński (itl)"
+    },
+    {
+        "value": "dnw",
+        "text": "język dani zachodni (dnw)"
+    },
+    {
+        "value": "dje",
+        "text": "język dżerma (dje)"
+    },
+    {
+        "value": "qji",
+        "text": "język kankuamo (qji)"
+    },
+    {
+        "value": "tsz",
+        "text": "język purepecha (tsz)"
+    },
+    {
+        "value": "jit",
+        "text": "język jita (jit)"
+    },
+    {
+        "value": "tzl",
+        "text": "język talossański (tzl)"
+    },
+    {
+        "value": "kgp",
+        "text": "język kaingang (kgp)"
+    },
+    {
+        "value": "ksk",
+        "text": "język kansa (ksk)"
+    },
+    {
+        "value": "zdj",
+        "text": "język komoryjski ngazidża (zdj)"
+    },
+    {
+        "value": "gyn",
+        "text": "język kreolski gujański (gyn)"
+    },
+    {
+        "value": "bjn",
+        "text": "język bandżarski (bjn)"
+    },
+    {
+        "value": "iba",
+        "text": "język ibański (iba)"
+    },
+    {
+        "value": "fkv",
+        "text": "język kweński (fkv)"
+    },
+    {
+        "value": "ruo",
+        "text": "język istrorumuński (ruo)"
+    },
+    {
+        "value": "fon",
+        "text": "język fon (fon)"
+    },
+    {
+        "value": "mnk",
+        "text": "język mandinka (mnk)"
+    },
+    {
+        "value": "mrw",
+        "text": "język maranao (mrw)"
+    },
+    {
+        "value": "pag",
+        "text": "język pangasinan (pag)"
+    },
+    {
+        "value": "dty",
+        "text": "język doteli (dty)"
+    },
+    {
+        "value": "aad",
+        "text": "język amal (aad)"
+    },
+    {
+        "value": "aai",
+        "text": "język miniafia-oyan (aai)"
+    },
+    {
+        "value": "aak",
+        "text": "język ankave (aak)"
+    },
+    {
+        "value": "aap",
+        "text": "język arara parajski (aap)"
+    },
+    {
+        "value": "alg",
+        "text": "język algonkiński (alg)"
+    },
+    {
+        "value": "arl",
+        "text": "język arabela (arl)"
+    },
+    {
+        "value": "yux",
+        "text": "język południowojukagirski (yux)"
+    },
+    {
+        "value": "yad",
+        "text": "język yagua (yad)"
+    },
+    {
+        "value": "zro",
+        "text": "język zaparo (zro)"
+    },
+    {
+        "value": "fud",
+        "text": "język futuna wschodni (fud)"
+    },
+    {
+        "value": "mid",
+        "text": "język mandejski (mid)"
+    },
+    {
+        "value": "sas",
+        "text": "język sasak (sas)"
+    },
+    {
+        "value": "ss",
+        "text": "język suazi (ss)"
+    },
+    {
+        "value": "maz",
+        "text": "język mazahua (maz)"
+    },
+    {
+        "value": "dtp",
+        "text": "język kadazdański (dtp)"
+    },
+    {
+        "value": "crs",
+        "text": "język seszelski (crs)"
+    },
+    {
+        "value": "piv",
+        "text": "język pileni (piv)"
+    },
+    {
+        "value": "aal",
+        "text": "język afade (aal)"
+    },
+    {
+        "value": "aat",
+        "text": "arvanitika (aat)"
+    },
+    {
+        "value": "knw",
+        "text": "język !Kung (knw)"
+    },
+    {
+        "value": "oma",
+        "text": "język omahijsko-ponkaski (oma)"
+    },
+    {
+        "value": "clm",
+        "text": "język klallam (clm)"
+    },
+    {
+        "value": "mfe",
+        "text": "język maurytyjski (mfe)"
+    },
+    {
+        "value": "sli",
+        "text": "język śląski niemiecki (sli)"
+    },
+    {
+        "value": "ttt",
+        "text": "język tacki (ttt)"
+    },
+    {
+        "value": "rif",
+        "text": "język tarifit (rif)"
+    },
+    {
+        "value": "gha",
+        "text": "język ghadameski (gha)"
+    },
+    {
+        "value": "jbn",
+        "text": "język nafusi (jbn)"
+    },
+    {
+        "value": "zen",
+        "text": "język zenaga (zen)"
+    },
+    {
+        "value": "grr",
+        "text": "język taznatit (grr)"
+    },
+    {
+        "value": "oua",
+        "text": "język warkalski (oua)"
+    },
+    {
+        "value": "sce",
+        "text": "język santyjski (sce)"
+    },
+    {
+        "value": "siz",
+        "text": "język siwi (siz)"
+    },
+    {
+        "value": "swn",
+        "text": "język sokna (swn)"
+    },
+    {
+        "value": "hop",
+        "text": "język hopi (hop)"
+    },
+    {
+        "value": "kee",
+        "text": "język wschodniokeresański (kee)"
+    },
+    {
+        "value": "kjq",
+        "text": "język zachodniokeresański (kjq)"
+    },
+    {
+        "value": "zun",
+        "text": "język zuni (zun)"
+    },
+    {
+        "value": "ami",
+        "text": "język amis (ami)"
+    },
+    {
+        "value": "ovd",
+        "text": "język elfdalski (ovd)"
+    },
+    {
+        "value": "mqm",
+        "text": "język południowomarkiski (mqm)"
+    },
+    {
+        "value": "mrq",
+        "text": "język północnomarkiski (mrq)"
+    },
+    {
+        "value": "bla",
+        "text": "język siksika (bla)"
+    },
+    {
+        "value": "oji",
+        "text": "język odżibwe (oji)"
+    },
+    {
+        "value": "dar",
+        "text": "język dargijski (dar)"
+    },
+    {
+        "value": "owl",
+        "text": "język starowalijski (owl)"
+    },
+    {
+        "value": "nch",
+        "text": "język nahuatl ze środkowej Huasteki (nch)"
+    },
+    {
+        "value": "azz",
+        "text": "język nahuatl z Puebli wyżynnej (azz)"
+    },
+    {
+        "value": "ncj",
+        "text": "język nahuatl z północnej Puebli (ncj)"
+    },
+    {
+        "value": "hus",
+        "text": "język huastek (hus)"
+    },
+    {
+        "value": "ppl",
+        "text": "język pipil (ppl)"
+    },
+    {
+        "value": "ote",
+        "text": "język otomi z doliny Mezquital (ote)"
+    },
+    {
+        "value": "art-pona",
+        "text": "toki pona (art-pona)"
+    },
+    {
+        "value": "pis",
+        "text": "język neosalomoński (pis)"
+    },
+    {
+        "value": "czk",
+        "text": "język knaan (czk)"
+    },
+    {
+        "value": "com",
+        "text": "język komanczerski (com)"
+    },
+    {
+        "value": "aiw",
+        "text": "język aari (aiw)"
+    },
+    {
+        "value": "sva",
+        "text": "język swański (sva)"
+    },
+    {
+        "value": "hak",
+        "text": "język hakka (hak)"
+    },
+    {
+        "value": "cdo",
+        "text": "język mindong (cdo)"
+    },
+    {
+        "value": "wuu",
+        "text": "język wu (wuu)"
+    },
+    {
+        "value": "bra",
+        "text": "język bradź (bra)"
+    },
+    {
+        "value": "asb",
+        "text": "język assiniboine (asb)"
+    },
+    {
+        "value": "mhq",
+        "text": "język mandan (mhq)"
+    },
+    {
+        "value": "atj",
+        "text": "język atikamek (atj)"
+    },
+    {
+        "value": "kea",
+        "text": "język kabowerdeński (kea)"
+    },
+    {
+        "value": "tcs",
+        "text": "yumplatok (tcs)"
+    },
+    {
+        "value": "rop",
+        "text": "kriol australijski (rop)"
+    },
+    {
+        "value": "psu",
+        "text": "prakryt śauraseni (psu)"
+    },
+    {
+        "value": "pmh",
+        "text": "prakryt maharasztri (pmh)"
+    },
+    {
+        "value": "pka",
+        "text": "prakryt ardhamagadhi (pka)"
+    },
+    {
+        "value": "sjn",
+        "text": "sindarin (sjn)"
+    },
+    {
+        "value": "miq",
+        "text": "miskito (miq)"
+    },
+    {
+        "value": "dtb",
+        "text": "język wschodniokadazański (dtb)"
+    },
+    {
+        "value": "bcl",
+        "text": "język środkowy bikolski (bcl)"
+    },
+    {
+        "value": "bho",
+        "text": "język bhodźpuri (bho)"
+    },
+    {
+        "value": "mat",
+        "text": "język matlatzinka (mat)"
+    },
+    {
+        "value": "ofs",
+        "text": "język starofryzyjski (ofs)"
+    },
+    {
+        "value": "tso",
+        "text": "język tsonga (tso)"
+    },
+    {
+        "value": "ven",
+        "text": "język venda (ven)"
+    },
+    {
+        "value": "mjg",
+        "text": "język mongorski (mjg)"
+    },
+    {
+        "value": "bej",
+        "text": "język bedża (bej)"
+    },
+    {
+        "value": "sel",
+        "text": "język selkupski (sel)"
+    },
+    {
+        "value": "akv",
+        "text": "język achwaski (akv)"
+    },
+    {
+        "value": "yai",
+        "text": "język jagnobijski (yai)"
+    },
+    {
+        "value": "kva",
+        "text": "język bagulalski (kva)"
+    },
+    {
+        "value": "tin",
+        "text": "język tindyjski (tin)"
+    },
+    {
+        "value": "cji",
+        "text": "język czamalalski (cji)"
+    },
+    {
+        "value": "khw",
+        "text": "język khowarski (khw)"
+    },
+    {
+        "value": "haj",
+        "text": "język hadżong (haj)"
+    },
+    {
+        "value": "mai",
+        "text": "język maithili (mai)"
+    },
+    {
+        "value": "pra",
+        "text": "prakryt magadhi (pra)"
+    },
+    {
+        "value": "nlv",
+        "text": "nahuatl z Orizaba (nlv)"
+    },
+    {
+        "value": "nhe",
+        "text": "nahuatl ze wschodniej Huasteki (nhe)"
+    },
+    {
+        "value": "nhg",
+        "text": "nahuatl z Tetelcingo (nhg)"
+    },
+    {
+        "value": "nhw",
+        "text": "nahuatl z zachodniej Huasteki (nhw)"
+    },
+    {
+        "value": "nhv",
+        "text": "nahuatl z Temascaltepec (nhv)"
+    },
+    {
+        "value": "ngu",
+        "text": "nahuatl z Guerrero (ngu)"
+    },
+    {
+        "value": "azd",
+        "text": "nahuatl z Durango (azd)"
+    },
+    {
+        "value": "nhx",
+        "text": "nahuatl z Mecayapan (nhx)"
+    },
+    {
+        "value": "nhm",
+        "text": "nahuatl z Morelos (nhm)"
+    },
+    {
+        "value": "chu",
+        "text": "cerkiewnosłowiański (chu)"
+    },
+    {
+        "value": "tsn",
+        "text": "język tswana (tsn)"
+    },
+    {
+        "value": "yur",
+        "text": "język yurok (yur)"
+    },
+    {
+        "value": "kmq",
+        "text": "język kwama (kmq)"
+    },
+    {
+        "value": "klj",
+        "text": "język chaladzki (klj)"
+    },
+    {
+        "value": "puw",
+        "text": "język puluwat (puw)"
+    }
+]

@@ -6,10 +6,10 @@ def check_if_authors_exist_or_create_and_return_ids(authors_string):
     separate_authors_names = authors_string.split(",")
     authors_list = []
     for author in separate_authors_names:
-        try:
+        if Author.objects.filter(name=author.strip()).exists():
             author = Author.objects.get(name=author.strip())
             authors_list.append(author)
-        except:
+        else:
             author = Author.objects.create(name=author.strip())
             authors_list.append(author)
     return authors_list

@@ -91,9 +91,9 @@
             minLength: 1,
             noResultsText: 'Brak wyników',
             events: {
-                        searchPost: function (resultsFromServer, origJQElement) {
-                console.log(origJQElement[0].value)
-                return resultsFromServer.filter(element => element.includes(origJQElement[0].value));
+                    searchPost: function (resultsFromServer, origJQElement) {
+                        console.log(origJQElement[0].value)
+                        return resultsFromServer.filter(element => element.includes(origJQElement[0].value));
                         }
                     }
                 
