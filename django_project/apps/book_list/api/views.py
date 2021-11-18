@@ -7,6 +7,13 @@ from ..utils import perform_search_on_given_parameters
 
 
 class BookListAPIView(generics.ListAPIView):
+    """
+    Endpoint: /api/books/ (will display all books from database)
+    Example filtering with query params:
+    /api/books/?title=Hobbit&author=Tolkien&language=angielski&date_start=1940-01-12&date_end=1999-02-15
+    View is paginated, you can find next page link, and total items from query.
+    """
+
     serializer_class = BookSerializer
     pagination_class = BookListPagination
     renderer_classes = [JSONRenderer]
